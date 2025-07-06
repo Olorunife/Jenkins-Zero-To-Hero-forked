@@ -2,11 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
     <modelVersion>4.0.0</modelVersion>
+    
     <groupId>com.abhishek</groupId>
     <artifactId>spring-boot-demo</artifactId>
     <version>1.0</version>
-    <n>spring-boot-demo</n>
+    <name>spring-boot-demo</name>
     <description>Spring Boot Demo Application</description>
     <packaging>jar</packaging>
     
@@ -26,7 +28,7 @@
         <maven.compiler.release>11</maven.compiler.release>
         <sonar.organization>your-org</sonar.organization>
         <sonar.projectKey>your-project-key</sonar.projectKey>
-        <sonar.host.url>http://13.41.200.53:9000</sonar.host.url>
+        <sonar.host.url>http://localhost:9000</sonar.host.url>
     </properties>
     
     <dependencies>
@@ -82,7 +84,7 @@
             <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.9.1.2184</version>
+                <version>3.9.0.2155</version>
             </plugin>
             <plugin>
                 <groupId>org.jacoco</groupId>
@@ -105,4 +107,5 @@
             </plugin>
         </plugins>
     </build>
+    
 </project>
