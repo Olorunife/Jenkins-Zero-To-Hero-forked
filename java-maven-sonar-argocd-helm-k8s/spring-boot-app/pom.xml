@@ -29,6 +29,7 @@
         <sonar.organization>your-org</sonar.organization>
         <sonar.projectKey>your-project-key</sonar.projectKey>
         <sonar.host.url>http://localhost:9000</sonar.host.url>
+        <sonar.login>squ_aac30080195c20c924537a2a14809594036871b5</sonar.login>
     </properties>
     
     <dependencies>
